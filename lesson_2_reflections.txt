@@ -19,4 +19,6 @@ How do the diagrams help you visualize the branch structure?
 
 I can differentiate between production quality code & experimental code etc by using braches. By seeing diagrams of branches I can understand which brnach has most recent commits etc.
 
- 
+What is the result of merging two branches together? Why do we represent it in the diagram the way we do?
+
+If we merge branch 1 & master, where master is the most recent code & branch 1 as a new feature, It results in a new master branch that has conenction with both the commits of master & branch1. The diagram helps us visualize the relationship. 
