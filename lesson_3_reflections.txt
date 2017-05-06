@@ -2,3 +2,7 @@ When would you want to use a remote repository rather than keeping all your work
 
 When ever I plan to use multiple system's, I can directly create files in github itself and then later download them to my local. I won't be dependent on
 one particular machine anymore and also I let others see my code.
+
+Why might you want to always pull changes manually rather than having Git automatically stay up-to-date with your remote repository?
+
+Because there are scenarios's where I dont want my code in my remote to be updated in my local. I want to review it and pull it manually. 
