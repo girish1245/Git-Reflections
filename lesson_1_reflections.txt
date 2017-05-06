@@ -30,3 +30,5 @@ Once I have committed my changes and since I have access to previous version's h
 Now that you have your workspace set up, what do you want to try using Git for?
 
 I would use to setup during the beginning of new projects and clone exisitng repo's in git to checkout the code and go through the application's. Yay!
+
+
