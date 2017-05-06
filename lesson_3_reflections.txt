@@ -1,0 +1,4 @@
+When would you want to use a remote repository rather than keeping all your work local?
+
+When ever I plan to use multiple system's, I can directly create files in github itself and then later download them to my local. I won't be dependent on
+one particular machine anymore and also I let others see my code.
