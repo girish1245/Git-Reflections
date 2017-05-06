@@ -1,0 +1,32 @@
+How did viewing a diff between two versions of a file help you see the bug that was introduced?
+
+I was able to see all the changes between the two files in blocks of code. I was able to find out a typo in a file by myself. 
+
+How could having easy access to the entire history of a file make you a more efficient programmer in the long term?
+
+With the help of revision control, we can avoid saving old copies of our application when writing code. When multiple people are working on a same file, we can see the changes makde by each person specifically. We can revert back the changes if we ever want and compare as well. 
+
+What do you think are the pros and cons of manually choosing when to create a commit, like you do in Git, vs having versions automatically saved, like Google Docs does?
+
+If I ever forget to commit my changes, and keep working on it, in future I cannot access previous version's of it. But using auto save tht problem is solved but there might be oo many commits to go through the differences between files. 
+
+Why do you think some version control systems, like Git, allow saving multiple files in one commit, while others, like Google Docs, treat each file separately?
+
+Because in google docs, we can't write code and it doesn't make sense to store the versions of two different files together. 
+
+How can you use the commands git log and git diff to view the history of files?
+
+git log - can be used to see the commit history of the repository with time stamp, commit id's etc.
+
+git diff can be used to see chnges between two spearate commits. 
+
+Press q to exit out of the command.
+
+
+How might using version control make you more confident to make changes that could break something?
+
+Once I have committed my changes and since I have access to previous version's history, I can checkout previous version of my repository using git checkout. that would save me a lot of trouble. 
+
+Now that you have your workspace set up, what do you want to try using Git for?
+
+I would use to setup during the beginning of new projects and clone exisitng repo's in git to checkout the code and go through the application's. Yay!
