@@ -22,3 +22,9 @@ I can differentiate between production quality code & experimental code etc by u
 What is the result of merging two branches together? Why do we represent it in the diagram the way we do?
 
 If we merge branch 1 & master, where master is the most recent code & branch 1 as a new feature, It results in a new master branch that has conenction with both the commits of master & branch1. The diagram helps us visualize the relationship. 
+
+What are the pros and cons of Git’s automatic merging vs. always doing merges manually?
+
+
+If we dont have major conflicts between code, then auto merge is a greate solution, or else manual merge is the way to go. 
+
