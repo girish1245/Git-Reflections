@@ -13,4 +13,11 @@ Clone: When I want a copy with commit history from github or on my local, then I
 
 Branch: When I have new features in my codebase but I don't want to add to the official version then I wil use branches (or) if I want someone else to work on my codebase they would use a branch.
 
-Fork: When I want to use a user's codebase and want it to be visible on my github profile I iwll use fork. 
+Fork: When I want to use a user's codebase and want it to be visible on my github profile I iwll use fork.
+
+
+What is the benefit of having a copy of the last known state of the remote stored locally?
+
+	It would avoid merge conflicts between origin & master while merging. So, if we have an updated version of origin in our local origin.master, then we can merge both master and origin/master after resolving conflicts.
+	Using Git fetch we can update our local origin/master
+	And then resolve conflicts and merge origin & master.  
