@@ -5,4 +5,12 @@ one particular machine anymore and also I let others see my code.
 
 Why might you want to always pull changes manually rather than having Git automatically stay up-to-date with your remote repository?
 
-Because there are scenarios's where I dont want my code in my remote to be updated in my local. I want to review it and pull it manually. 
+Because there are scenarios's where I dont want my code in my remote to be updated in my local. I want to review it and pull it manually.
+
+Describe the differences between forks, clones, and branches. When would you use one instead of another?
+
+Clone: When I want a copy with commit history from github or on my local, then I will use clone.
+
+Branch: When I have new features in my codebase but I don't want to add to the official version then I wil use branches (or) if I want someone else to work on my codebase they would use a branch.
+
+Fork: When I want to use a user's codebase and want it to be visible on my github profile I iwll use fork. 
