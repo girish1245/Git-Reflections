@@ -18,11 +18,22 @@ Fork: When I want to use a user's codebase and want it to be visible on my githu
 
 What is the benefit of having a copy of the last known state of the remote stored locally?
 
-	It would avoid merge conflicts between origin & master while merging. So, if we have an updated version of origin in our local origin.master, then we can merge both master and origin/master after resolving conflicts.
+	It would avoid merge conflicts between origin & master while merging. So, if we have an updated version of origin in our local origin/master, then we can merge both master and origin/master after resolving conflicts.
 	Using Git fetch we can update our local origin/master
 	And then resolve conflicts and merge origin & master. 
 
 	How would you collaborate without using Git or GitHub? What would be easier, and what would be harder?
 
 By using Git, I would create a repository when building an application and add collabrators to my repository. Whenever I want to push some changes I will create a spearate branch and submit a pull request for letting other's go through my code and review it. similarly I would play the same reviewer role in other people code. 
+
+
+When would you want to make changes in a separate branch rather than directly in master? What benefits does each approach have?
+
+	Whenever I want to add some new feautres and I dont want to modify the stable code in master or some other brnach I would create a separate brnach for it and make changes. 
+	Benefits:
+	1) I can merge the brnach with main branch later and update the present branch with offical features and get a taste of how my feature is working in real time. 
+	2) I can colloborate with others by letting them review my new feature by submitting a pull request. 
+	3)After a succeful pull request(i.e code review), my main branch will be updated in remote, and I can pull the remote main branch to my local and verify th changes in my main brnach. 
+	Pull requests & brnahces simplify colloborations with others and adding new feature sets to my application.
+
  
