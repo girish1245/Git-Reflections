@@ -20,4 +20,9 @@ What is the benefit of having a copy of the last known state of the remote store
 
 	It would avoid merge conflicts between origin & master while merging. So, if we have an updated version of origin in our local origin.master, then we can merge both master and origin/master after resolving conflicts.
 	Using Git fetch we can update our local origin/master
-	And then resolve conflicts and merge origin & master.  
+	And then resolve conflicts and merge origin & master. 
+
+	How would you collaborate without using Git or GitHub? What would be easier, and what would be harder?
+
+By using Git, I would create a repository when building an application and add collabrators to my repository. Whenever I want to push some changes I will create a spearate branch and submit a pull request for letting other's go through my code and review it. similarly I would play the same reviewer role in other people code. 
+ 
